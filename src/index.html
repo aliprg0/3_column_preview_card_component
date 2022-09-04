@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | 3-column preview card component</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="flex justify-center items-center min-h-screen">
+    <div
+      class="flex flex-col lg:flex-row mx-8 my-8 max-w-lg lg:max-w-4xl
+        text-white overflow-hidden rounded-xl"
+
+    >
+      <div class="bg-bright-orange p-16">
+        <img src="./images/icon-sedans.svg" alt="" />
+        <div class="mt-10 text-3xl font-bold tracking-wide">SEDANS</div>
+        <div class="mt-9 text-gray-300">
+          Choose a sedan for its affordability and excellent fuel economy. Ideal
+          for cruising in the city or on your next road trip.
+        </div>
+        <div
+          class="rounded-3xl border-4 hover:border-2 mt-20 text-center p-3 cursor-pointer hover:bg-white hover:text-bright-orange"
+        >
+          Learn More
+        </div>
+      </div>
+      <div class="bg-dark-cyan p-16">
+        <img src="./images/icon-suvs.svg" alt="" />
+        <div class="mt-10 text-3xl font-bold tracking-wide">SUVs</div>
+        <div class="mt-9 text-gray-300">
+          Take an SUV for its spacious interior, power, and versatility. Perfect
+          for your next family vacation and off-road adventures.
+        </div>
+        <div
+          class="rounded-3xl border-4 hover:border-2 mt-20 text-center p-3 cursor-pointer hover:bg-white hover:text-dark-cyan"
+        >
+          Learn More
+        </div>
+      </div>
+      <div class="bg-very-dark-cyan p-16">
+        <img src="./images/icon-luxury.svg" alt="" />
+        <div class="mt-10 text-3xl font-bold tracking-wide">Luxury</div>
+        <div class="mt-9 text-gray-300">
+          Cruise in the best car brands without the bloated prices. Enjoy the
+          enhanced comfort of a luxury rental and arrive in style.
+        </div>
+        <div
+          class="rounded-3xl border-4 hover:border-2 mt-20 text-center p-3 cursor-pointer hover:bg-white hover:text-very-dark-cyan"
+        >
+          Learn More
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
